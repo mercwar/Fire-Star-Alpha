@@ -41,7 +41,7 @@ The **Fire‑Star Alpha Link Repository** is the backbone of the RRU system. It 
 ## 📸 Create your own page
 
 <img 
-    src="images/image_2026-07-08_233258785.png" 
+    src="images/image_2026-07-09_010108861.png" 
     style="width:100%; height:auto;"
 />
 
