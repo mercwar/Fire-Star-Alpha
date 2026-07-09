@@ -11,7 +11,7 @@
 
     
 
-# Fire‑Star Alpha Link Repository ✨
+# Fire‑Star Alpha Repository ✨
 
 ## 🌌 Introduction
 The **Fire‑Star Alpha Link Repository** is the backbone of the RRU system. It provides secure file handling, quota enforcement, and a star‑themed dashboard that connects user homepages into a constellation. Each user is represented as a star, and the dashboard is the galaxy that unites them.
