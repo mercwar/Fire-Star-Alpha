@@ -1,4 +1,16 @@
 
+<a target="_self" title="CLICK HERE to ENTER the GATEWAY FREE!" href="https://mercwar.github.io/Constellation/index.html">
+<img 
+    src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Gallery/refs/heads/main/Version%207/image_d2a07390.png" 
+    alt="Mercwar Constellation" 
+    style="width:100%; height:auto;"
+/>
+</a>
+
+
+
+    
+
 # Fire‑Star Alpha Link Repository ✨
 
 ## 🌌 Introduction
@@ -17,18 +29,21 @@ The **Fire‑Star Alpha Link Repository** is the backbone of the RRU system. It 
 
 ---
 
-## 📂 Repository Structure
-```
-link-repo/
-├── save-file.php          # Secure file save handler
-├── checkImageCap.php      # Quota enforcement function
-├── create-home.css        # Unified professional stylesheet
-├── dashboard.php          # Master dashboard view
-├── README.md              # Documentation
-└── USER/                  # User homepages and hosted files
-```
-
+## 📂 Nothing to install
+<img 
+    src="images/image_2026-07-08_235238533.png" 
+    style="width:100%; height:auto;"
+/>
 ---
+
+## 📸 Create your own page
+<img 
+    src="images/image_2026-07-08_233258785.png" 
+    style="width:100%; height:auto;"
+/>
+
+
+
 
 ## 🚀 Step-by-Step Usage
 
@@ -42,6 +57,7 @@ cd fire-star-link-repo
 - Install PHP 7.4+ or newer.
 - Set `$google_user` in your session/auth system.
 - Ensure `RRU-AI/USER/` exists for user homepages.
+
 
 ### 3. Create User Directory
 Each user has:
@@ -60,6 +76,8 @@ if (!checkImageCap($google_user, 25600)) {
 }
 ```
 
+
+
 ### 5. Save Files
 Use `save-file.php` with POST payloads:
 - `dir` — target directory (`png`, `html`, etc.)
@@ -71,6 +89,11 @@ Response example:
 ```json
 {"status":"success","file":"logo.png","dir":"png"}
 ```
+
+<img 
+    src="images/image_2026-07-08_233723131.png" 
+    style="width:100%; height:auto;"
+/>
 
 ### 6. Use the Dashboard
 Open `dashboard.php`:
@@ -90,10 +113,7 @@ Link `create-home.css` for unified UI.
 
 ---
 
-## 📸 Screenshots
-*(Add screenshots of the dashboard and star‑themed UI here.)*
 
----
 
 ## 🛠 Troubleshooting
 - **Quota exceeded**: Delete old files in `USER/<username>/htdocs/png` or other image dirs.
