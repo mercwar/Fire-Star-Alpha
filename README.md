@@ -145,7 +145,7 @@ store your css/js files in the fire star or on another server and link to them
 
 
 
-# 🌐 Hosting Benefits with Fire‑Star Alpha Link Repository
+# 🌐 FREE Hosting Benefits with Fire‑Star Alpha 
 
 ## What You Get
 When you host your project in the Fire‑Star Alpha Link Repository, you gain:
