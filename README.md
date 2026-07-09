@@ -41,10 +41,6 @@ The **Fire‑Star Alpha Link Repository** is the backbone of the RRU system. It 
 ## 📸 Create your own page
 
 
-
-
-
-
 ## 🚀 Step-by-Step Usage
 
 ### 1. Clone the Repository
@@ -54,33 +50,26 @@ cd fire-star-link-repo
 ```
 
 ### 2. Configure Environment
-- Install PHP 7.4+ or newer.
-- Set `$google_user` in your session/auth system.
-- Ensure `RRU-AI/USER/` exists for user homepages.
-
+- Log in
+- Create your page
+- Use all of the features
 
 <img src="images/image_2026-07-08_233242730.png" style="width:100%; height:auto;"/>
 
 
 ### 3. Create User Directory
-Each user has:
+Each user has a directory automatically created:
 ```
-USER/<username>/htdocs/html/index.html
+/html
 ```
 This is their homepage, loaded by the dashboard.
 
-### 4. Enforce Quota
-Include `checkImageCap.php`:
-```php
-include_once('checkImageCap.php');
-if (!checkImageCap($google_user, 25600)) {
-    echo json_encode(["status" => "error", "message" => "Quota exceeded"]);
-    exit;
-}
-```
+### 5. CSS/JS Support
 
-
-
+-Run your own JS
+-Run your own css
+-Choose your own files for your site
+-Link to your own images from Robo Rook or use the shard hosting
 
 ### 5. Save Files
 
@@ -89,16 +78,17 @@ if (!checkImageCap($google_user, 25600)) {
     style="width:100%; height:auto;"
 />
 
-Use `save-file.php` with POST payloads:
+Use the SAVE button: 
 - `dir` — target directory (`png`, `html`, etc.)
 - `filename` — desired filename
 - `content` — text/code
 - `uploadFile` — image file
+- Just click `Save` and your site will appear in the dashboard
+  
+Avis Response Sysytem:
 
-Response example:
-```json
-{"status":"success","file":"logo.png","dir":"png"}
-```
+- A Growing notification system 
+- Built for future LLM Support
 
 ### 6. Use the Dashboard
 
@@ -109,13 +99,15 @@ Response example:
 />
 
 
-Open `dashboard.php`:
+Open `Dashboard` from your user menu:
+
 - Sidebar lists all users.
 - Click a user to load their homepage.
 - Header shows the current user.
 
 ### 7. Apply Styling
-Link `create-home.css` for unified UI.
+HTML tags go through the system as a  normal web site.
+store your css/js files in the fire star or on another server and link to them
 
 ---
 
